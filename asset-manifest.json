@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jean-neymar/static/css/main.6741ad15.css",
-    "main.js": "/jean-neymar/static/js/main.0ec238ad.js",
+    "main.js": "/jean-neymar/static/js/main.df8077bb.js",
     "static/js/787.cf9e1e73.chunk.js": "/jean-neymar/static/js/787.cf9e1e73.chunk.js",
     "index.html": "/jean-neymar/index.html",
     "main.6741ad15.css.map": "/jean-neymar/static/css/main.6741ad15.css.map",
-    "main.0ec238ad.js.map": "/jean-neymar/static/js/main.0ec238ad.js.map",
+    "main.df8077bb.js.map": "/jean-neymar/static/js/main.df8077bb.js.map",
     "787.cf9e1e73.chunk.js.map": "/jean-neymar/static/js/787.cf9e1e73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6741ad15.css",
-    "static/js/main.0ec238ad.js"
+    "static/js/main.df8077bb.js"
   ]
 }
