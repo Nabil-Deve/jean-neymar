@@ -1,13 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Sidebar from "./components/Sidebar";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <div style={{ display: "flex" }}>
+      <div style={{ flex: 2, height: "100vh" }}>
+        <Sidebar />
+      </div>
+      <div style={{ flex: 9 }}>
+        <App />
+      </div>
+    </div>
   </React.StrictMode>
 );
 

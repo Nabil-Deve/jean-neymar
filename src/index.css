@@ -1,13 +1,74 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  margin: 0px !important;
+}
+
+.link {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.link:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #3f3628 !important;
+}
+
+.link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cover {
+  width: 200px;
+}
+
+.cover:hover {
+  width: 230px;
+  transition: 0.5s;
+}
+
+.about > img {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.about p {
+  margin-left: 50px;
+}
+
+.about > h1 {
+  margin-left: 50px;
+}
+
+.cover-books > p {
+  font-weight: bold;
+}
+
+.jean-books {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.jean-books img {
+  width: 60%;
 }
