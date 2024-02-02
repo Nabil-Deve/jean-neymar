@@ -1,18 +1,14 @@
 import "./App.css";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Accueil from "./components/Accueil";
 import About from "./components/About";
 import Books from "./components/Books";
 import BookPage from "./components/BookPage";
 import BookOne from "./components/BookOne";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Accueil />,
